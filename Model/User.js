@@ -1,4 +1,4 @@
-var mongoose = require('./mongoose.js');
+var mongoose = require(__dirname + '/mongoose.js');
 
 var loginSchema = new mongoose.Schema({
     email: {type: String, required: true, unique: true, index: true},

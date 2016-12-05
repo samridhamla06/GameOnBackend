@@ -1,5 +1,10 @@
 var mongoose = require(__dirname + '/mongoose.js');
-var locationSchema = require('../schemas/location.js');
+var path = require('path');
+var locationSchema = require(path.join(__dirname,'/../schemas','/location.js'));
+//var offerSchema = require(path.join(__dirname,'/../schemas','/offerSchema.js'));
+//var offerSchema = require(path.join('../../schemas','/offerSchema.js'));
+
+
 
 var eventSchema = new mongoose.Schema({
     event_desc: {type: String, required: true},
