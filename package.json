@@ -1,6 +1,6 @@
 {
-  "name": "SocialProjectBackend",
-  "version": "0.0.0",
+  "name": "gameonbackend",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -18,5 +18,22 @@
     "request": "~2.74.0",
     "serve-favicon": "~2.3.0",
     "sports-live": "^1.0.1"
-  }
+  },
+  "main": "Server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samridhamla06/GameOnBackend.git"
+  },
+  "keywords": [
+    "sports",
+    "gameon"
+  ],
+  "author": "Samridh Amla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samridhamla06/GameOnBackend/issues"
+  },
+  "homepage": "https://github.com/samridhamla06/GameOnBackend#readme",
+  "description": ""
 }
